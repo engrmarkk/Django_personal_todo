@@ -174,6 +174,7 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 [![Django todo Screenshot][Django_personal_todo-screenshot]](https://github.com/engrmarkk/Django_personal_todo/blob/main/static/djangotodo.png)
 
+<br/>
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -189,7 +190,6 @@ Python3: [Get Python](https://www.python.org/downloads/)
   <li><b>Reset password feature</b>: The Reset Password feature allows users to create a new password if they have forgotten their previous one. This feature provides users with a convenient way to regain access to their accounts without having to contact customer service.</li>
 </ul> -->
 
----
 <!-- Contact -->
 
 ## Contact
