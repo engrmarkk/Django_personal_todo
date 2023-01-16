@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px) {
+    section{
+        width: 100% !important;
+    }
+
+    form#form{
+        width: 19.6rem !important;
+      
+    }
+}
+
+section{
+    width: 50%;
+}
+
+form#form{
+    width: 21rem;
+    margin: auto;
+    height: 100vh;
+}
+
+#div{
+    background: rgb(71, 69, 69);
+}
+
+#loginbtn{
+    width: fit-content;
+}
