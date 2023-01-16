@@ -152,7 +152,8 @@ Python3: [Get Python](https://www.python.org/downloads/)
    <li>Enter your password</li>
    <li>Enter your password again (confirm password)</li>
    </ul>
-7.   Run the app
+   
+7.  Run the app
     ```sh
     python manage.py runserver
     ```
