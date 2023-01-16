@@ -152,7 +152,7 @@ Python3: [Get Python](https://www.python.org/downloads/)
    <li>Enter your password</li>
    <li>Enter your password again (confirm password)</li>
    </ul>
-   
+
 7.  Run the app
     ```sh
     python manage.py runserver
@@ -173,7 +173,7 @@ Python3: [Get Python](https://www.python.org/downloads/)
 <br />
 <p>Light Mode</p>
 
-[![My Blog Project Screenshot][Django_personal_todo-screenshot]](https://github.com/engrmarkk/Django_personal_todo/blob/main/static/djangotodo.png)
+[![Django todo Screenshot][Django_personal_todo-screenshot]](https://github.com/engrmarkk/Django_personal_todo/blob/main/static/djangotodo.png)
 
 <br/>
 
@@ -219,8 +219,7 @@ Project Link: [Todo Project](https://github.com/engrmarkk/Django_personal_todo)
 [license-url]: https://github.com/engrmarkk/Django_personal_todo/blob/main/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-@iamengrmark-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/iamengrmark
 [twitter-url]: https://twitter.com/iamengrmark
-[Django_personal_todo-screenshot]: static/images/screen-light.png
-[Django_personal_todo-screenshot2]: static/images/screen-dark.png
+[Django_personal_todo-screenshot]: static/images/djangotodo.png
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [flask]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 [Django]: https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
