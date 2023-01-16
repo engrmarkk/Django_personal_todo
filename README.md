@@ -174,7 +174,6 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 [![Django todo Screenshot][Django_personal_todo-screenshot]](https://github.com/engrmarkk/Django_personal_todo/blob/main/static/djangotodo.png)
 
-<br/>
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
