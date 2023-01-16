@@ -55,7 +55,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>    
-    <li><a href="#shots">Shots</a></li>
+    <li><a href="#screenshot">Screenshot</a></li>
     <!-- <li><a href="#update-made">Update Made</a></li> -->
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -168,10 +168,9 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 <!-- Sample Screenshot -->
 
-## Shots
+## Screenshot
 
 <br />
-<p>Light Mode</p>
 
 [![Django todo Screenshot][Django_personal_todo-screenshot]](https://github.com/engrmarkk/Django_personal_todo/blob/main/static/djangotodo.png)
 
