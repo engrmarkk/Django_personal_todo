@@ -1,5 +1,9 @@
 # Django_personal_todo
 
+
+https://user-images.githubusercontent.com/100721103/212752941-668a3f21-f27b-451f-880b-b890c725bdf5.mp4
+
+
 <!-- Back to Top Navigation Anchor -->
 
 <a name="readme-top"></a>
