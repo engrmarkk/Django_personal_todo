@@ -88,10 +88,10 @@ def complete_todo(request, todo_id):
     return redirect('/todo')
 
 
-# @login_required()
-# def logout(request):
-#     # logout the user
-#     auth.logout(request)
-#     messages.error(request, 'You have been logged out')
-#     # redirect the user to the login page
-#     return redirect('/')
+@login_required()
+def logout(request):
+    # logout the user
+    auth.logout(request)
+    messages.error(request, 'You have been logged out')
+    # redirect the user to the login page
+    return redirect('/')
