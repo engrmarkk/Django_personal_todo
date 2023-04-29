@@ -16,14 +16,14 @@
 <link rel="stylesheet" href="{% static 'style.css' %}">
     <title>Document</title>
 </head>
-<body class="p-3">
+<body class="p-2">
     <section class="m-auto my-5"
     style="
     box-shadow: rgba(0, 0, 0, 0.199) 0px 4px 12px;
     background: rgb(75, 73, 73);
     "
     >
-    <div class=" p-5">
+    <div class=" px-4 py-5">
 
          <!-- <div class="d-flex justify-content-end">
         <i class="fa fa-moon bg-secondary text-white p-2 rounded-circle h6"></i>
@@ -50,7 +50,7 @@
     >
         {% csrf_token %}
 
-        <input type="text" name="todo" id="outline" class="form-control border-0 p-3 text-white shadow-none" 
+        <input type="text" name="todo" id="outline" autofocus class="form-control border-0 p-3 text-white shadow-none" 
         style="background: none;" placeholder="Enter todo..">
         <button type="submit" class="fas fa-plus rounded-circle p-2 border-0 bg-primary text-white"></button>
     </form>
@@ -94,7 +94,10 @@
     </div>
   
     </div>
-    </section>
+    <div class="p-3">
+      <a href="/logout" class="badge text-white text-decoration-none bg-info p-2">Logout</a>
+    </div>
+  </section>
 
 
 
