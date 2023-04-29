@@ -8,6 +8,8 @@ from .models import Todo
 
 # Create your views here.
 def login(request):
+    if request.user.is_authenticated:
+        return redirect('/todo')
     # if you are sending a post request
     if request.method == 'POST':
         # get the username from the form
@@ -59,6 +61,7 @@ def index(request):
         # if the data sent is not empty, save it in the database
         new_todo = Todo(todo=todo)
         new_todo.save()
+        return redirect("/todo")
         # messages.info(request, 'Todo added')
     # for the get request, we send the context dictionary to the template for usage
     return render(request, 'index.html', context)
@@ -83,3 +86,12 @@ def complete_todo(request, todo_id):
     # update and save the new data
     todo.save()
     return redirect('/todo')
+
+
+# @login_required()
+# def logout(request):
+#     # logout the user
+#     auth.logout(request)
+#     messages.error(request, 'You have been logged out')
+#     # redirect the user to the login page
+#     return redirect('/')
